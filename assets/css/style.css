@@ -443,6 +443,36 @@ a.btn-style-one.circle {
     border-radius: 50px;
 }
 
+.banner-style-one-area .swiper-button-prev::after {
+    display: none;
+}
+
+.banner-style-one-area .swiper-button-prev::before {
+    position: absolute;
+	left: 20px;
+	top: 30px;
+	content: "\f104";
+	font-family: "Font Awesome 5 Pro";
+	font-size: 50px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+.banner-style-one-area .swiper-button-next::after {
+    display: none;
+}
+
+.banner-style-one-area .swiper-button-next::before {
+    position: absolute;
+	right: 20px;
+	top: 30px;
+	content: "\f105";
+	font-family: "Font Awesome 5 Pro";
+	font-size: 50px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
 /* ============================================================== 
      # Start Navbar Css
 =================================================================== */
