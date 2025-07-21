@@ -474,7 +474,7 @@ a.btn-style-one.circle {
 }
 
 /* ============================================================== 
-     # Start Navbar Css
+     # Start Visa Css
 =================================================================== */
 
 .visa-category-one-item .thumb img {
@@ -525,4 +525,33 @@ a.btn-style-one.circle {
 
 .visa-category-one-item {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+/* ============================================================== 
+     # Start Team Css
+=================================================================== */
+
+.team-style-one-item .thumb img {
+    width: 100%;
+}
+
+.team-style-one-item {
+    margin-top: 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.social-overlay ul li {
+    margin-right: 7px;
+}
+
+.social-overlay ul li a {
+    background: red;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: var(--white);
 }
