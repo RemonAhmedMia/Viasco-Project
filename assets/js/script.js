@@ -52,9 +52,9 @@
 
 
         /* ==================================================
-            # Services Carousel
+            # Visa Carousel
          ===============================================*/
-		const ServicesStyleOne = new Swiper(".service-style-one-carousel", {
+		const VisacategoryOne = new Swiper(".visa-category-style-one-carousel", {
 			// Optional parameters
 			loop: true,
 			slidesPerView: 1,
