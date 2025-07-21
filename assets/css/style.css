@@ -542,6 +542,24 @@ a.btn-style-one.circle {
     overflow: hidden;
 }
 
+.team-one-heading {
+    margin-bottom: 35px;
+}
+
+.team-one-heading h5 {
+    border: 1px solid;
+    display: inline-block;
+    padding: 12px 30px;
+    margin-bottom: 10px;
+}
+
+.team-one-heading h3 {
+    text-transform: capitalize;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
 .social-overlay ul li {
     margin-right: 7px;
 }
@@ -554,4 +572,8 @@ a.btn-style-one.circle {
     text-align: center;
     border-radius: 50%;
     color: var(--white);
+}
+
+.team-style-one-area {
+    padding: 120px 0;
 }
