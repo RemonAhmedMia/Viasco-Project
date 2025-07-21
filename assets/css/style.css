@@ -577,3 +577,12 @@ a.btn-style-one.circle {
 .team-style-one-area {
     padding: 120px 0;
 }
+
+.team-style-one-item .thumb img.team-shape {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 40%;
+	mix-blend-mode: multiply;
+	transition: all 0.35s ease-in-out;
+}
