@@ -934,3 +934,25 @@ ul.footer-contact-list li span a {
     border-radius: 50%;
     font-size: 20px;
 }
+
+ul.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 27px;
+}
+
+ul.footer-social li a {
+    background: #22467b;
+    color: var(--white);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul.footer-social li:hover a {
+	background: var(--color-primary);
+	color: var(--white);
+}
