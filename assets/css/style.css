@@ -528,6 +528,35 @@ a.btn-style-one.circle {
 }
 
 /* ============================================================== 
+     # Start Funfact Css
+=================================================================== */
+
+.funfact-style-one-area {
+    padding: 120px 0;
+	background-size: cover;
+	background-position: center center;
+}
+
+.funfact-style-one-item .funfact h2 {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.funfact-style-one-item .funfact .operator {
+    font-size: 85px;
+    font-weight: 600;
+    color: var(--color-heading);
+}
+
+.funfact-style-one-item p {
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 400;
+    padding-left: 20px;
+    border-left: 6px solid var(--color-primary);
+}
+
+/* ============================================================== 
      # Start Team Css
 =================================================================== */
 
