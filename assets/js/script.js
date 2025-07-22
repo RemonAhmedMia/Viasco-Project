@@ -122,8 +122,8 @@
 			// Optional parameters
 			loop: true,
 			slidesPerView: 1,
-			spaceBetween: 50,
-			autoplay: true,
+			spaceBetween: 30,
+			autoplay: false,
 			pagination: {
 				el: ".swiper-pagination",
 				clickable: true,

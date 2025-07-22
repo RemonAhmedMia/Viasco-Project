@@ -638,14 +638,80 @@ a.btn-style-one.circle {
 	max-width: 50%;
 }
 
-
-
 .team-info h4 {
     font-size: 27px;
     text-transform: capitalize;
     padding-bottom: 5px;
 }
 
+/* ============================================================== 
+     # Start Testimonial Css
+=================================================================== */
+
 .testimonial-style-one-thumb img {
     width: 100%;
+}
+
+.testimonial-style-one-area {
+	background: var(--bg-gradient-minimal);
+	padding: 120px 0;
+}
+
+.testimonial-style-one-content h5 {
+    font-size: 24px;
+    font-weight: 600;
+    border: 1px solid;
+    display: inline-block;
+    padding: 12px 30px;
+    margin-bottom: 20px;
+}
+
+.testimonial-style-one-content h3 {
+    font-size: 52px;
+    line-height: 1.2;
+    padding-bottom: 35px;
+}
+
+.testimonial-style-one-item {
+    background: var(--white);
+    padding: 40px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.testimonial-style-three-carousel {
+	margin-left: -50%;
+}
+
+.testimonial-style-one-item h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.testimonial-style-one-item .rattings i {
+    color: #ffb800;
+    padding-bottom: 15px;
+}
+
+.testimonial-style-one-item p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.testimonial-one-bottom .thumb img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial-one-bottom .info h4 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    margin: 0;
+}
+
+.testimonial-one-bottom .info span {
+    font-size: 18px;
 }
