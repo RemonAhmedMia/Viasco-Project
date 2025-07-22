@@ -831,3 +831,27 @@ a.btn-style-one.circle {
 .blog-style-one-item {
 	margin-top: 30px;
 }
+
+/* ============================================================== 
+     # Start Footer Css
+=================================================================== */
+
+.footer-style-one-area {
+	padding: 120px 0;
+	background: var(--dark);
+}
+
+.footer-style-one-item h4 {
+    font-size: 26px;
+    color: var(--white);
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.footer-style-one-item p {
+    font-size: 17px;
+    padding-right: 10px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
