@@ -715,3 +715,31 @@ a.btn-style-one.circle {
 .testimonial-one-bottom .info span {
     font-size: 18px;
 }
+
+/* ============================================================== 
+     # Start Blog Css
+=================================================================== */
+
+.blog-style-one-area {
+    padding: 120px 0;
+	background: var(--bg-gray);
+}
+
+.blog-style-one-heading {
+    margin-bottom: 30px;
+}
+
+.blog-style-one-heading h5 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    border: 1px solid;
+    display: inline-block;
+    padding: 12px 30px;
+}
+
+.blog-style-one-heading h3 {
+    font-size: 62px;
+    line-height: 1.2;
+}
