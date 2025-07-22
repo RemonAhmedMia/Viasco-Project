@@ -645,3 +645,7 @@ a.btn-style-one.circle {
     text-transform: capitalize;
     padding-bottom: 5px;
 }
+
+.testimonial-style-one-thumb img {
+    width: 100%;
+}

@@ -118,7 +118,7 @@
         /* ==================================================
             # Testimonial Carousel
          ===============================================*/
-		const TestimonialStyleOne = new Swiper(".testimonial-style-one-carousel", {
+		const TestimonialStyleOne = new Swiper(".testimonial-style-three-carousel", {
 			// Optional parameters
 			loop: true,
 			slidesPerView: 1,
@@ -135,9 +135,14 @@
 			},
 	
 			breakpoints: {
-				
-				1199: {
+				768: {
 					slidesPerView: 1,
+				},
+				992: {
+					slidesPerView: 1,
+				},
+				1199: {
+					slidesPerView: 2,
 				}
 			},
 		});
