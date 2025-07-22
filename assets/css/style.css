@@ -839,6 +839,8 @@ a.btn-style-one.circle {
 .footer-style-one-area {
 	padding: 120px 0;
 	background: var(--dark);
+	background-size: cover;
+	background-position: bottom center;
 }
 
 .footer-style-one-item h4 {
@@ -854,4 +856,47 @@ a.btn-style-one.circle {
     padding-right: 10px;
     line-height: 1.7;
     padding-bottom: 20px;
+}
+
+ul.footer-contact-list li {
+    margin-bottom: 18px;
+}
+
+ul.footer-contact-list li i {
+    background: var(--color-primary);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+ul.footer-contact-list li span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ul.footer-contact-list li span a {
+    color: var(--white);
+}
+
+.footer-style-one-item ul li a {
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+	transition: all 0.35s ease-in-out;
+	opacity: 0.7;
+}
+
+.footer-style-one-item ul li:hover a {
+	color: var(--color-primary);
+	transform: translateX(10px);
+	opacity: 100%;
+}
+
+.footer-style-one-item ul li {
+    margin-bottom: 20px;
 }
