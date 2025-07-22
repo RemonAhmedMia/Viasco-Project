@@ -542,6 +542,10 @@ a.btn-style-one.circle {
     font-weight: 700;
 }
 
+.funfact-style-one-item {
+	margin-top: 30px;
+}
+
 .funfact-style-one-item .funfact .operator {
     font-size: 85px;
     font-weight: 600;
