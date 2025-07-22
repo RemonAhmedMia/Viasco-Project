@@ -565,13 +565,23 @@ a.btn-style-one.circle {
 }
 
 .social-overlay ul li a {
-    background: red;
+    background: #0077B5;
     height: 50px;
     width: 50px;
     line-height: 50px;
     text-align: center;
-    border-radius: 50%;
     color: var(--white);
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.35s ease-in-out;
+}
+
+.social-overlay ul li:nth-child(2) a {
+	background: #ea4c89;
+}
+
+.social-overlay ul li:nth-child(3) a {
+	background: #3B5998;
 }
 
 .team-style-one-area {
@@ -585,4 +595,53 @@ a.btn-style-one.circle {
     max-width: 40%;
 	mix-blend-mode: multiply;
 	transition: all 0.35s ease-in-out;
+}
+
+.team-social {
+    position: absolute;
+    right: 0;
+    bottom: 82px;
+}
+
+.team-social ul {
+	margin: 0;
+}
+
+.team-social .icon i {
+    background: var(--color-primary);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+	color: var(--white);
+}
+
+.team-style-one-item:hover .social-overlay ul li a {
+    opacity: 1;
+    visibility: visible;
+	transform: translateX(-10px);
+}
+
+.social-overlay {
+    display: flex;
+    align-items: center;
+}
+
+.team-style-one-item .thumb {
+    position: relative;
+    overflow: hidden;
+	transition: all 0.35s ease-in-out;
+	margin-bottom: 20px;
+}
+
+.team-style-one-item .thumb:hover .team-shape {
+	max-width: 50%;
+}
+
+
+
+.team-info h4 {
+    font-size: 27px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
 }
