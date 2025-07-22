@@ -900,3 +900,37 @@ ul.footer-contact-list li span a {
 .footer-style-one-item ul li {
     margin-bottom: 20px;
 }
+
+.footer-newsletter input.newsletter-input {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #e7e7e7;
+    padding: 12px 30px;
+    border-radius: 50px;
+	position: relative;
+	z-index: 1;
+}
+
+.footer-newsletter {
+	position: relative;
+	z-index: 1;
+}
+
+.footer-newsletter input.newsletter-input::placeholder {
+	color: var(--white);
+}
+
+.footer-input-button {
+    background: var(--color-primary);
+    position: absolute;
+    right: 7px;
+    /* display: inline-block; */
+    top: 50%;
+    transform: translateY(-50%);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
