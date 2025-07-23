@@ -492,6 +492,19 @@ a.btn-style-one.circle {
     margin-top: -20px;
 }
 
+.about-style-one-area {
+    padding: 120px 0;
+}
+
+.about-style-one-thumb img {
+    width: 100%;
+}
+
+.about-style-one-thumb {
+    position: relative;
+    z-index: 1;
+}
+
 /* ============================================================== 
      # Start Visa Css
 =================================================================== */
