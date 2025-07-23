@@ -703,6 +703,75 @@ a.btn-style-one.circle {
     object-position: center;
 }
 
+.choose-us-style-one-content h5 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border: 1px solid;
+    display: inline-block;
+    padding: 12px 30px;
+    margin-bottom: 20px;
+}
+
+.choose-us-style-one-content h3 {
+    font-size: 61px;
+    padding-right: 50px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+.choose-us-style-one-content p {
+    font-size: 17px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+
+.choose-us-style-one-item {
+	    display: flex
+;
+    align-items: flex-start;
+    gap: 15px;
+    border-right: 1px solid #e7e7e7;
+    padding-right: 20px;
+    margin-right: 30px;
+}
+
+.choose-us-style-one-item h2.number {
+    font-size: 80px;
+    font-weight: 700;
+	color: transparent;
+    -webkit-text-stroke: 1px #cccccc;
+	transform: rotate(-90deg);
+}
+
+.choose-us-style-one-item:last-child {
+	border: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.chooseus-style-one-items {
+    display: flex;
+    align-items: center;
+    
+}
+
+.choose-us-style-one-content {
+    margin-left: 60px;
+}
+
+.choose-us-style-one-item .info h4 {
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.choose-us-style-one-item .info p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
 /* ============================================================== 
      # Start Team Css
 =================================================================== */
