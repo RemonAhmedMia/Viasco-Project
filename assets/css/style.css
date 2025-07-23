@@ -679,6 +679,31 @@ a.btn-style-one.circle {
 }
 
 /* ============================================================== 
+     # Start ChooseUs Css
+=================================================================== */
+
+.chooseus-style-one-area {
+    position: relative;
+    z-index: 1;
+    padding: 120px 0;
+}
+
+.chooseus-banner-thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 35%;
+}
+
+.chooseus-banner-thumb img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ============================================================== 
      # Start Team Css
 =================================================================== */
 
