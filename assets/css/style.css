@@ -575,6 +575,22 @@ a.btn-style-one.circle {
     padding-bottom: 29px;
 }
 
+.about-style-one-content .top h4 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-left: 20px;
+}
+
+.about-style-one-content .top {
+    margin-bottom: 20px;
+}
+
+.about-style-one-content .about-list-card p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
 /* ============================================================== 
      # Start Visa Css
 =================================================================== */
