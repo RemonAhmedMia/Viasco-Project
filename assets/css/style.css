@@ -1201,3 +1201,46 @@ ul.footer-social li:hover a {
 	background: var(--color-primary);
 	color: var(--white);
 }
+
+
+/* ============================================================== 
+     # Start Breadcurmb Css
+=================================================================== */
+
+.Breadcurmb-banner-area {
+    padding: 120px 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    color: var(--white);
+}
+
+.Breadcurmb-banner-area::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background: var(--black);
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.breadcurm-style-one-item h3 {
+    font-size: 60px;
+    color: var(--white);
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 11px;
+}
+
+ul.breadcurmb-list-item li {
+    padding-right: 24px;
+    font-size: 18px;
+}
+
+ul.breadcurmb-list-item li a {
+    color: var(--white);
+}
