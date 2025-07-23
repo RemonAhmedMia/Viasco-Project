@@ -474,6 +474,25 @@ a.btn-style-one.circle {
 }
 
 /* ============================================================== 
+     # Start About Css
+=================================================================== */
+
+.experience-style-one-heading h2 {
+	margin: 0;
+    font-size: 150px;
+    line-height: 1;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    font-weight: 900;
+    letter-spacing: -9px;
+    margin-top: -20px;
+}
+
+/* ============================================================== 
      # Start Visa Css
 =================================================================== */
 

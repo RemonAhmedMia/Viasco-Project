@@ -202,43 +202,84 @@
 			});
 
 			/* ==================================================
-            # Typed js
-            ===============================================*/
-
-			$(".typed").typed({
-				strings: ["Developers.", "Web Designers.", "UX/UI Designer ."],
-				// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
-				stringsElement: null,
-				// typing speed
-				typeSpeed: 50,
-				// time before typing starts
-				startDelay: 1200,
-				// backspacing speed
-				backSpeed: 20,
-				// time before backspacing
-				backDelay: 500,
-				// loop
-				loop: true,
-				// false = infinite
-				loopCount: 5,
-				// show cursor
-				showCursor: false,
-				// character for cursor
-				cursorChar: "|",
-				// attribute to type (null == text)
-				attr: null,
-				// either html or text
-				contentType: 'html',
-				// call when done callback function
-				callback: function() {},
-				// starting callback function before each string
-				preStringTyped: function() {},
-				//callback for every typed string
-				onStringTyped: function() {},
-				// callback for reset
-				resetCallback: function() {}
+		    _Progressbar Init
+		 ===============================================*/
+		function animateElements() {
+			$('.progressbar').each(function() {
+				var elementPos = $(this).offset().top;
+				var topOfWindow = $(window).scrollTop();
+				var percent = $(this).find('.circle').attr('data-percent');
+				var animate = $(this).data('animate');
+				if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
+					$(this).data('animate', true);
+					$(this).find('.circle').circleProgress({
+						// startAngle: -Math.PI / 2,
+						value: percent / 100,
+						size: 120,
+						thickness: 10,
+						lineCap: 'round',
+						emptyFill: '#eeeeee',
+						fill: {
+							gradient: ['#E13833', '#F44336']
+						}
+					}).on('circle-animation-progress', function(event, progress, stepValue) {
+						$(this).find('strong').text((stepValue * 100).toFixed(0) + "%");
+					}).stop();
+				}
 			});
 
+			$('.progressbar-two').each(function() {
+				var elementPos = $(this).offset().top;
+				var topOfWindow = $(window).scrollTop();
+				var percent = $(this).find('.circle-two').attr('data-percent');
+				var animate = $(this).data('animate');
+				if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
+					$(this).data('animate', true);
+					$(this).find('.circle-two').circleProgress({
+						// startAngle: -Math.PI / 2,
+						value: percent / 100,
+						size: 100,
+						thickness: 5,
+						lineCap: 'round',
+						emptyFill: '#acbdf9',
+						fill: {
+							gradient: ['#ffffff', '#ffffff']
+						}
+					}).on('circle-animation-progress', function(event, progress, stepValue) {
+						$(this).find('strong').text((stepValue * 100).toFixed(0) + "%");
+					}).stop();
+				}
+			});
+
+
+			$('.progressbar-three').each(function() {
+				var elementPos = $(this).offset().top;
+				var topOfWindow = $(window).scrollTop();
+				var percent = $(this).find('.circle-three').attr('data-percent');
+				var animate = $(this).data('animate');
+				if (elementPos < topOfWindow + $(window).height() - 30 && !animate) {
+					$(this).data('animate', true);
+					$(this).find('.circle-three').circleProgress({
+						// startAngle: -Math.PI / 2,
+						value: percent / 100,
+						size: 100,
+						thickness: 3,
+						lineCap: 'round',
+						emptyFill: '#dddddd',
+						fill: {
+							gradient: ['#232323', '#214BE0']
+						}
+					}).on('circle-animation-progress', function(event, progress, stepValue) {
+						$(this).find('strong').text((stepValue * 100).toFixed(0) + "%");
+					}).stop();
+				}
+			});
+		}
+
+		animateElements();
+		$(window).scroll(animateElements);
+
+			
 
 			/* ==================================================
 		    # Fun Factor Init
@@ -294,6 +335,8 @@ $(window).on('scroll',function(){
 		$(".progress-bar").removeClass("progressbar-active");
 	}
 });
+
+
 
 
 
