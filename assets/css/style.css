@@ -1299,6 +1299,14 @@ ul.breadcurmb-list-item li a {
     font-weight: 600;
 }
 
+.about-style-two-thumb img.about-two-shape {
+    max-width: 54%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
 /* ============================================================== 
      # Start Breadcurmb Css
 =================================================================== */
