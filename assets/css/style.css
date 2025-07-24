@@ -1326,6 +1326,7 @@ ul.breadcurmb-list-item li a {
     font-size: 54px;
     line-height: 1.2;
     padding-bottom: 20px;
+	color: var(--color-heading);
 }
 
 .about-style-two-content p {
