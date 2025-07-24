@@ -1244,3 +1244,37 @@ ul.breadcurmb-list-item li {
 ul.breadcurmb-list-item li a {
     color: var(--white);
 }
+
+
+/* ============================================================== 
+     # Start About two Css
+=================================================================== */
+
+.about-style-two-area {
+    padding: 120px 0;
+}
+
+.about-style-two-thumb img.about-two-first {
+    width: 100%;
+    border: 5px solid var(--white);
+}
+
+.about-style-two-thumb {
+    position: relative;
+    z-index: 1;
+    padding-left: 35%;
+    padding-top: 60px;
+}
+
+.about-style-two-thumb img.about-two-last {
+    max-width: 45%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+/* ============================================================== 
+     # Start Breadcurmb Css
+=================================================================== */
