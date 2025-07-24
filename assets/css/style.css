@@ -192,6 +192,17 @@ a, .btn, button {
   transition: all 200ms linear;
 }
 
+
+.site-heading {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 1px solid;
+    display: inline-block;
+    padding: 12px 30px;
+    margin-bottom: 15px;
+}
+
 /* ============================================================== 
      # Start Navbar Css
 =================================================================== */
@@ -1305,6 +1316,32 @@ ul.breadcurmb-list-item li a {
     right: 0;
     top: 0;
     z-index: -1;
+}
+
+.about-style-two-content {
+    padding-left: 50px;
+}
+
+.about-style-two-content h3 {
+    font-size: 54px;
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+.about-style-two-content p {
+    font-size: 17px;
+    line-height: 1.7;
+    padding-bottom: 20px;
+}
+
+.about-style-two-content p.bd-left {
+    font-size: 22px;
+    line-height: 1.4;
+    font-family: italic;
+    font-weight: 400;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-left: 4px solid var(--color-primary);
 }
 
 /* ============================================================== 
