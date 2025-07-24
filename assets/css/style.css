@@ -1274,6 +1274,30 @@ ul.breadcurmb-list-item li a {
     z-index: -1;
 }
 
+.about-two-experience {
+    background: var(--bg-gradient);
+    max-width: 37%;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    bottom: 11px;
+    border-radius: 10px;
+}
+
+.about-two-experience h2.counter {
+    font-size: 80px;
+    color: var(--white);
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.about-two-experience .funfact p {
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 600;
+}
 
 /* ============================================================== 
      # Start Breadcurmb Css
