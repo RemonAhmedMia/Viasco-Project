@@ -1344,6 +1344,27 @@ ul.breadcurmb-list-item li a {
     border-left: 4px solid var(--color-primary);
 }
 
+.about-style-two-items {
+    padding: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 24px;
+}
+
+ul.about-style-two-item li img {
+    width: 76px;
+    padding-right: 20px;
+}
+
+ul.about-style-two-item li h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1;
+}
+
+ul.about-style-two-item li {
+    padding-right: 20px;
+}
+
 /* ============================================================== 
      # Start Breadcurmb Css
 =================================================================== */
