@@ -1373,6 +1373,10 @@ ul.about-style-two-item li {
 .appointment-style-one-area {
     padding: 120px 0;
 }
+.appointment-style-one-thumb {
+    position: relative;
+    z-index: 1;
+}
 
 /* ============================================================== 
      # Start appointment Css
