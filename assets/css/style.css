@@ -1378,6 +1378,10 @@ ul.about-style-two-item li {
     z-index: 1;
 }
 
+.appointment-style-one-thumb .thumb-inner img {
+    width: 90%;
+}
+
 /* ============================================================== 
      # Start appointment Css
 =================================================================== */
