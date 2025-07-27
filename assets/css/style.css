@@ -1374,12 +1374,34 @@ ul.about-style-two-item li {
     padding: 120px 0;
 }
 .appointment-style-one-thumb {
-    position: relative;
-    z-index: 1;
+    text-align: center;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 30px;
 }
 
 .appointment-style-one-thumb .thumb-inner img {
-    width: 90%;
+    width: 70%;
+}
+
+.appointment-style-one-thumb .thumb-inner {
+    margin: auto;
+    border-radius: 0 0 480px 485px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.appointment-style-one-thumb .thumb-inner::after {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	content: "";
+	height: 550px;
+	width: 550px;
+	background: linear-gradient(90deg, var(--color-primary)  0%, var(--dark) 100%);
+	z-index: -1;
+	transform: translateX(-50%);
+	border-radius: 50%;
 }
 
 /* ============================================================== 
