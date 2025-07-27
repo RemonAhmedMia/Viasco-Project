@@ -1404,6 +1404,24 @@ ul.about-style-two-item li {
 	border-radius: 50%;
 }
 
+.apply-form-one-items {
+	background: linear-gradient(180deg, #e4eaff 0%, #f9faff 60%);
+	padding: 60px;
+	position: relative;
+	margin-bottom: -60px;
+	border-radius: 8px;
+	border: 1px solid #e7e7e7;
+}
+
+.from-group input.from-control {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+	border: none;
+}
+
+
 /* ============================================================== 
      # Start appointment Css
 =================================================================== */
