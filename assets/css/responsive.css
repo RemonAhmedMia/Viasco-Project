@@ -43,6 +43,10 @@
     margin-left: 0;
 }
 
+.blog-style-one-heading h3 {
+    font-size: 45px;
+}
+
 }
 
 /* MObile Layout: 576px.*/
@@ -106,6 +110,10 @@
 }
 
 .testimonial-style-one-content h3 {
+    font-size: 40px;
+}
+
+.blog-style-one-heading h3 {
     font-size: 40px;
 }
 
@@ -180,6 +188,10 @@
 }
 .testimonial-style-one-content h3 {
     font-size: 35px;
+}
+
+.blog-style-one-heading h3 {
+    font-size: 30px;
 }
 
 }
