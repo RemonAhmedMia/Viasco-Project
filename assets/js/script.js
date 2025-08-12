@@ -20,7 +20,7 @@
             # Banner Carousel
          ===============================================*/
 
-         const BannerOne = new Swiper('.banner-style-one-carousel', {
+         const BannerOne = new Swiper('.banner-style-on-carousel', {
             // Optional parameters
             direction: 'horizontal',
             loop: true,
