@@ -19,6 +19,14 @@
     font-size: 55px;
 }
 
+.about-style-one-thumb {
+    margin-top: 30px;
+}
+
+.about-style-one-content h3 {
+    font-size: 45px;
+}
+
 }
 
 /* MObile Layout: 576px.*/
@@ -34,6 +42,22 @@
     padding-right: 0;
 }
 
+.about-style-one-thumb {
+    margin-top: 30px;
+}
+
+.about-style-one-content h3 {
+    font-size: 45px;
+}
+
+.about-style-one-thumb .success-rate {
+    position: relative;
+    left: 0;
+    max-width: 304px;
+    margin-top: 23px;
+    text-align: center;
+    justify-content: center;
+}
 
 }
 
@@ -47,6 +71,23 @@
 
 .banner-style-one-item p {
     padding-right: 0;
+}
+
+.about-style-one-thumb {
+    margin-top: 30px;
+}
+
+.about-style-one-content h3 {
+    font-size: 40px;
+}
+
+.about-style-one-thumb .success-rate {
+    position: relative;
+    left: 0;
+    max-width: 304px;
+    margin-top: 23px;
+    text-align: center;
+    justify-content: center;
 }
 
 }
