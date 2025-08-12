@@ -31,6 +31,10 @@
     font-size: 50px;
 }
 
+.team-one-heading h3 {
+    font-size: 50px;
+}
+
 }
 
 /* MObile Layout: 576px.*/
@@ -80,6 +84,9 @@
 .funfact-style-one-item p{
     border-left: none;
     padding-left: 0;
+}
+.team-one-heading h3 {
+    font-size: 40px;
 }
 
 }
@@ -140,4 +147,7 @@
     font-size: 50px;
 }
 
+.team-one-heading h3 {
+    font-size: 35px;
+}
 }
