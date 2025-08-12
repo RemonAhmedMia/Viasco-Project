@@ -35,6 +35,14 @@
     font-size: 50px;
 }
 
+.testimonial-style-one-content {
+    margin-top: 30px;
+}
+
+.testimonial-style-three-carousel {
+    margin-left: 0;
+}
+
 }
 
 /* MObile Layout: 576px.*/
@@ -86,6 +94,18 @@
     padding-left: 0;
 }
 .team-one-heading h3 {
+    font-size: 40px;
+}
+
+.testimonial-style-one-content {
+    margin-top: 30px;
+}
+
+.testimonial-style-three-carousel {
+    margin-left: 0;
+}
+
+.testimonial-style-one-content h3 {
     font-size: 40px;
 }
 
@@ -150,4 +170,16 @@
 .team-one-heading h3 {
     font-size: 35px;
 }
+
+.testimonial-style-one-content {
+    margin-top: 30px;
+}
+
+.testimonial-style-three-carousel {
+    margin-left: 0;
+}
+.testimonial-style-one-content h3 {
+    font-size: 35px;
+}
+
 }
