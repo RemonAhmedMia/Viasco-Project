@@ -47,6 +47,11 @@
     font-size: 45px;
 }
 
+.about-style-two-content {
+    padding: 0;
+    margin-top: 42px;
+}
+
 }
 
 /* MObile Layout: 576px.*/
@@ -115,6 +120,28 @@
 
 .blog-style-one-heading h3 {
     font-size: 40px;
+}
+
+.about-style-two-content {
+    padding: 0;
+    margin-top: 42px;
+}
+
+.about-style-two-content h3 {
+    font-size: 40px;
+}
+
+.about-style-two-thumb {
+    padding: 0;
+
+}
+
+.about-style-two-thumb img.about-two-last {
+    display: none;
+}
+
+.about-two-experience {
+    bottom: 0;
 }
 
 }
@@ -192,6 +219,29 @@
 
 .blog-style-one-heading h3 {
     font-size: 30px;
+}
+
+.about-style-two-content {
+    padding: 0;
+    margin-top: 42px;
+}
+
+.about-style-two-content h3 {
+    font-size: 40px;
+}
+
+.about-style-two-thumb {
+    padding: 0;
+
+}
+
+.about-style-two-thumb img.about-two-last {
+    display: none;
+}
+
+.about-two-experience {
+    bottom: 0;
+    max-width: 50%;
 }
 
 }
